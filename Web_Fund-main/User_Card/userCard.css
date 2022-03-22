@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#container {
+  margin: auto;
+  width: 60%;
+  background-color: white;
+  border: #cccccc solid 3px;
+  margin-top: 30px;
+}
+.banner {
+  height: 70px;
+  background-color: #17a2b8;
+}
+#content {
+  padding: 20px;
+}
+.profile {
+  height: 100px;
+  margin-top: -66px;
+  border: #cccccc solid 6px;
+  border-radius: 50%;
+}
+.pin,
+.gear {
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+h1,
+h2 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: lighter;
+}
+.location {
+  display: flex;
+}
+.edit {
+  display: flex;
+  margin-top: 10px;
+}

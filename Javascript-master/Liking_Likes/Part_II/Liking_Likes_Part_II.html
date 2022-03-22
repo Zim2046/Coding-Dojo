@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="likingLikesPartII.css">
+    <title>Likes Part II</title>
+</head>
+<body>
+
+<div id="container">
+    <div class="nav">
+        <h1 class="font">Network</h1>
+    </div>
+    <div class="header font">
+        <h1>Your Feed</h1>
+    </div>
+    <div class="main">
+        <div class="col-left">
+            <div class="box-left font">
+                    <img src="./user-circle.png" alt="">
+                    <a href="">Add an avatar</a>
+                    <h3>James Doe</h3>
+            </div >
+        </div>
+        <div class="col-right">
+            <div class="box-right">
+                <div class="flex font">
+                     <h3>Niel M</h3>
+                     <div class="flex" id="Niel">
+                        <p>9 Like(s)</p>
+                        <button class="yellow-btn" onclick="addALikeNiel(countNielElement)">Like</button>  
+                     </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+            </div >
+            <div class="box-right">
+                <div class=" flex font">
+                    <h3>Nichole K</h3>
+                    <div class="flex" id="Nichole">
+                       <p>12 Like(s)</p>
+                       <button class="yellow-btn" onclick="addALikeNichole(countNicholeElement)">Like</button> 
+                    </div>  
+                </div>
+                <p>Just finished my <a href="">next comic</a>, check it out.</p>
+            </div >
+            <div class="box-right">
+                <div class="flex font">
+                    <h3>Jim R</h3> 
+                    <div class="flex" id="Jim">
+                        <p>9 Like(s)</p>
+                        <button class="yellow-btn" onclick="addALikeJim(countJimElement)">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening the <a href="">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="Liking_Likes_Part_II.js"></script>
+
+</body>
+</html>
