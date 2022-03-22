@@ -1,6 +1,0 @@
-
-
-## inheritance.py
-
-
-## TODO super

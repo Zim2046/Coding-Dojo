@@ -1,2 +1,0 @@
-# hack-a-thon
-

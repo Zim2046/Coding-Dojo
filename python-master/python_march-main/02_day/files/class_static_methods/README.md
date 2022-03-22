@@ -1,2 +1,0 @@
-# class and static methods
-
